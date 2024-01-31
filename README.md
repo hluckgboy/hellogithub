@@ -42,4 +42,12 @@ bubble.c
 
 insertsort.c
 
+- 选择排序
+
+select.c
+
+- 快速排序
+
+quick.c
+
 
