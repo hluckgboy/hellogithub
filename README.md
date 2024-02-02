@@ -50,4 +50,8 @@ select.c
 
 quick.c
 
+- 归并排序
+
+merge.c
+
 

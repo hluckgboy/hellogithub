@@ -16,7 +16,10 @@ add_test(NAME select COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/bin/select)
 add_executable(quick src/quick.c)
 add_test(NAME quick COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/bin/quick)
 
-set(targetlist bubble insert select quick)
+add_executable(merge src/merge.c)
+add_test(NAME merge COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/bin/merge)
+
+set(targetlist bubble insert select quick merge)
 
 install(TARGETS  ${targetlist}
         RUNTIME DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/bin  # 可执行文件安装路径
