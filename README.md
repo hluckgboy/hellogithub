@@ -34,6 +34,8 @@ ctest
 //具体可以通过"ctest -h"查看"ctest"的用法
 ```
 
+# 排序算法
+
 - 冒泡排序
 
 bubble.c
@@ -53,5 +55,18 @@ quick.c
 - 归并排序
 
 merge.c
+
+
+
+# 数据结构
+
+- array
+
+array.c
+
+- list
+
+list.c
+
 
 
