@@ -106,6 +106,8 @@ void traverse_node(Node *head) {
     printf("%d\t", tmp->val);
     tmp = tmp->next;
   }
+  printf("%d\t", tmp->val);
+  printf("\n");
 }
 
 /**
@@ -132,6 +134,6 @@ int main(int argc, char **argv) {
   printf("head value is %d", head->val);
   traverse_node(head);
   search_node(3, head);
-  access_node(head, 2);
+  access_node(head, 4);
   return 0;
 }
