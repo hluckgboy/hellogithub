@@ -2,6 +2,7 @@
  * @file sort-head.c
  * @brief heap sort
  */
+#include <stdio.h>
 
 /* 堆的长度为 n ，从节点 i 开始，从顶至底堆化 */
 void siftDown(int nums[], int n, int i) {
